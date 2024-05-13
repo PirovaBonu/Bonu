@@ -1,0 +1,56 @@
+.service {
+  padding: 96px 0;
+
+  &-text {
+    font-family: $main-font;
+    color: $black-color;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 134%;
+    text-align: center;
+  }
+
+  &-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  &-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 134%;
+    color: $red-color;
+  }
+
+  &-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: $black-color;
+  }
+
+  &-button {
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 16px;
+    width: 119px;
+    height: 42px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+    background-color: $red-color;
+}
+
+  &-row {
+    padding: 17px 0;
+    column-gap: 9px;
+  }
+
+  &-content {
+    height: 459px;
+    @include flex(center, space-between);
+  }
+
+  &-card {
+    width: 360px;
+    height: 360px;
+  }
+}

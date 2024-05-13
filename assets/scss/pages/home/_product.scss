@@ -1,0 +1,41 @@
+.product {
+
+  @include flex(center, center);
+
+  &-banner{
+    background-color: $main-color;
+  }
+
+  &-content {
+    width: 48.5%;
+  }
+
+  &-text {
+    padding: 50px;
+    height: 327px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 134%;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: $red-color;
+
+    &-weight {
+      font-weight: 700;
+    }
+
+    &-row{
+      padding: 71px 0;
+      margin: 71px 0;
+    }
+
+    &-subtitle {
+     
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+
+    }
+  }
+}

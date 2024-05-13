@@ -1,0 +1,27 @@
+.main {
+  padding: 10px 0;
+
+ &-row{
+    @include flex(center, center)
+ }
+
+  &-text {
+    padding: 10px 0;
+    background-image: url();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 134%;
+    text-align: center;
+    color: $black-color;
+
+    &__red{
+        color: $red-color;
+    }
+  }
+
+  &-content {
+    width: 1440px;
+}
+
+
+}
